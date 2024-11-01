@@ -1,0 +1,15 @@
+server:
+  port: 8000
+  host: 0.0.0.0
+
+file_output:
+  destination: output.txt
+
+url:
+  path: create
+  function_add_text: add-text
+  function_add_text_variable: text
+
+secret_key: django-insecure-1%gp&1w4pwxjregl_ut)6%4lr(u-j-b%p9ct71k&r=mc-)t24$
+
+debug: True
